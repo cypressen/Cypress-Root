@@ -1,3 +1,4 @@
+"use server";
 const nameMap = JSON.parse(process.env.SECRET_DATA || "{}");
 
 const SecretTable = () => {
