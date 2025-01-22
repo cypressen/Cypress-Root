@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col h-svh w-svh">
+      <body className="flex flex-col h-svh w-svh  lexend-giga">
         <Header />
         {children}
         <Footer />

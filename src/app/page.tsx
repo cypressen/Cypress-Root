@@ -17,10 +17,10 @@ export default function Home() {
         alt="main"
         // unoptimized
         // priority
-        width={2000}
-        quality={100}
-        height={1500}
-        className="object-cover w-[20vw] min-w-[20rem]"
+        objectFit="cover"
+        width={500}
+        height={500}
+        // className="object-cover w-[30vw] min-w-[20rem] h-[30vh]"
       />
       <div className="flex flex-col h-full w-auto ml-4">
         {descriptions.map((description, index) => (

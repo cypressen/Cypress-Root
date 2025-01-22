@@ -61,6 +61,7 @@ const SecretButton = () => {
               <Input
                 id="name"
                 defaultValue=""
+                type="password"
                 onChange={handleInput}
                 className="col-span-3"
               />
